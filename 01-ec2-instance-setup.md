@@ -13,3 +13,7 @@ Launched and connected to a virtual Linux server on AWS using EC2.
 ```bash
 uname -a
 uptime
+## 📸 Screenshots
+
+![EC2 instance running](https://raw.githubusercontent.com/matttor13/aws-learning-portfolio/main/EC2%20%20instance%20running%20.png
+)
