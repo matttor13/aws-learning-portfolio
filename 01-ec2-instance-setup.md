@@ -15,5 +15,5 @@ uname -a
 uptime
 ## 📸 Screenshots
 
-![EC2 instance running](https://raw.githubusercontent.com/matttor13/aws-learning-portfolio/main/EC2%20%20instance%20running%20.png
-)
+![EC2 instance running](https://raw.githubusercontent.com/matttor13/aws-learning-portfolio/main/EC2%20%20instance%20running%20.png)
+![EC2 code](https://github.com/matttor13/aws-learning-portfolio/blob/main/EC2%20code.png?raw=true)
