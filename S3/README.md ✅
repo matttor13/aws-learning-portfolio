@@ -1,0 +1,17 @@
+# S3 Bucket Setup and File Upload
+
+## ✅ Overview
+Created and used Amazon S3 to store files in the cloud and optionally share them using public URLs.
+
+## 🔧 Steps Taken
+- Created an S3 bucket with a unique name
+- Configured public access settings (if needed)
+- Uploaded a sample file
+- Viewed the file via the object URL (public link)
+
+## 📌 Notes
+- S3 is AWS’s object storage service — ideal for storing files, backups, and static websites.
+- By default, buckets and files are private.
+- You can use public links to share files globally.
+
+## 📸 Screenshots
