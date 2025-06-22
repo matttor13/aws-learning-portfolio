@@ -1,0 +1,20 @@
+# VPC Setup and EC2 Launch
+
+## ✅ Overview
+Created a custom VPC and launched an EC2 instance inside it.
+
+## 🛠️ Steps Completed
+- Created a VPC and public subnet
+- Created and attached Internet Gateway
+- Configured route table
+- Created and configured a Security Group
+- Launched an EC2 instance into the VPC
+
+## 💻 Commands Run in EC2
+## 📸 Screenshot
+![Internet Gateway attached to your VPC](https://github.com/matttor13/aws-learning-portfolio/blob/main/VPC/Internet%20Gateway%20attached%20to%20your%20VPC.png)
+![Launch Instance](https://github.com/matttor13/aws-learning-portfolio/blob/main/VPC/Launch%20Instance.png)
+![Route table pointing to IGW](https://github.com/matttor13/aws-learning-portfolio/blob/main/VPC/Route%20table%20pointing%20to%20IGW.png)
+![SAS public subnet linked](https://github.com/matttor13/aws-learning-portfolio/blob/main/VPC/SAS%20public%20subnet%20linked.png)
+![Subnet config](https://github.com/matttor13/aws-learning-portfolio/blob/main/VPC/Subnet%20config%20.png)
+![VPC name and CIDR](https://github.com/matttor13/aws-learning-portfolio/blob/main/VPC/VPC%20name%20and%20CIDR.png)
