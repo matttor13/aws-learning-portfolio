@@ -1,0 +1,24 @@
+# Lambda Function – helloLambda
+
+## ✅ Overview
+Created a basic AWS Lambda function using Python to return a simple message.
+
+## 🔧 Steps Taken
+- Created Lambda using AWS Console
+- Set runtime to Python 3.12
+- Pasted sample code and deployed it
+- Manually invoked the function using test events
+- Viewed logs in CloudWatch
+
+## 💻 Code Used
+```python
+def lambda_handler(event, context):
+    return {
+        'statusCode': 200,
+        'body': 'Hello from Lambda!'
+    }
+## 📸 Screenshots
+![Code to Lambda](https://github.com/matttor13/aws-learning-portfolio/blob/main/Lambda/Code%20to%20Lambda.png)
+![Created Lambda Function](https://github.com/matttor13/aws-learning-portfolio/blob/main/Lambda/Created%20Lambda%20Function.png)
+![Test Function](https://github.com/matttor13/aws-learning-portfolio/blob/main/Lambda/Test%20Function%20.png)
+![Viewed Logs in CloudWatch](https://github.com/matttor13/aws-learning-portfolio/blob/main/Lambda/Viewed%20Logs%20in%20CloudWatch.png)
