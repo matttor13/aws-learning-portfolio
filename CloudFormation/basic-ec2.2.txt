@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: >
+  Simple CloudFormation template to launch an EC2 instance
+  in a specific VPC subnet with a security group.
+
+Resources:
+  MyEC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-000ec6c25978d5999  # Amazon Linux 2 in us-east-1
+      InstanceType: t2.micro
+      SubnetId: subnet-0e2efb6c7d716d875
+      SecurityGroupIds:
+        - sg-059dea047cf0a21d6
+      Tags:
+        - Key: Name
+          Value: MyCloudFormationInstance
